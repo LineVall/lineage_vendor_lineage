@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     lineage_charger_animation_vendor
 endif
 
+# FaceEnroll - Settings RRO
+PRODUCT_PACKAGES += \
+    FaceEnrollSettingsOverlay
+
 # Legal
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.lineagelegal.url=https://lineageos.org/legal
